@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    android:orientation="vertical"
+    android:background="#F8F7F7"
+    android:gravity="center"
+    >
+
+
+
+
+    <LinearLayout
+        android:id="@+id/username_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_account_box_24"
+            />
+
+        <TextView
+            android:id="@+id/username_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="NaN"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/black"
+
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/email_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_mail_24"
+            />
+
+        <TextView
+            android:id="@+id/email_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="NaN"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/black"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/password_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_password_24"
+            />
+
+        <TextView
+            android:id="@+id/password_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="NaN"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/black"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_phone_24"
+            />
+
+        <TextView
+            android:id="@+id/code_val"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="NaN"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/number_val"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="NaN"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/black"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
